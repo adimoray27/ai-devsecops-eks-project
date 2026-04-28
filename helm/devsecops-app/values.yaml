@@ -1,0 +1,7 @@
+image:
+  repository: 975049946808.dkr.ecr.us-east-1.amazonaws.com/devsecops-flask-app
+  tag: latest
+
+service:
+  type: LoadBalancer
+  port: 5000
